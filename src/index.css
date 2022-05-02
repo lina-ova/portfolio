@@ -1,13 +1,25 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Kalam&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Oswald&family=Square+Peg&family=Tapestry&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+    font-family: 'Kalam', cursive;
+    background-color: white;
+    color: black;
+}
+
+img{
+    width: 100%;
+    height: 100%
+}
+
+a{
+    color: black
 }

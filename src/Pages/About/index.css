@@ -1,0 +1,63 @@
+
+.about-me::after{
+    content: 'About Me';
+}
+
+
+.background-image-container-girl{
+
+    top: -100px;
+    right: -50%;
+    width: 70vw;
+    max-width: 500px;
+
+    position: relative;
+    max-height: 500px;
+    flex-direction:row;
+}
+
+.background-image-container-cat{
+
+    top: -100px;
+
+    right: 250%;
+    width: 10vw;
+    max-width: 100px;
+    max-height: 100px;
+    position: relative;
+    max-height: 500px;
+    flex-direction:row;
+}
+
+
+.black-background1{
+
+    position: absolute;
+    inset:0;
+    background-color: rgba(255, 255, 255, 0.310);
+}
+
+.background-image-container img{
+    object-fit: scale-down;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -10px;
+
+    font-size: clamp(14px, 2vw, 20px);
+
+}
+
+.details h2{
+    font-size: clamp(20px, 1.4vw, 28px)
+}
+
+.details .bio {
+    max-width: 500px;
+    font-weight: 300;
+    margin-top: 15px;
+
+}

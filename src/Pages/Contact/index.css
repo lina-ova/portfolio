@@ -1,0 +1,32 @@
+.contact::after{
+    content: 'contact';
+}
+
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    font-size: clamp(10px, 2.5vh, 23px);
+}
+
+span > div{
+    margin-top: 20px;
+}
+
+span p{
+    cursor: pointer;
+    font-size: clamp(10px, 3vh, 38px);
+    margin-left: 22px;
+}
+span p:hover{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
+
+.contact-list-icon{
+    font-size: 22px
+}
