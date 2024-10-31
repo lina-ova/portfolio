@@ -5,14 +5,14 @@ import rockPaperScissors from '../../img/r-p-c.png'
 
 const work = [
     {
-        name: 'Movie-Book Recommender',
-        link: 'https://github.com/movie-book-recommender/movie-book-recommender-project',
-        imageSrc: img0
+        name: 'Rock-Paper-Scissors (with a slight hint of AI)',
+        code: 'https://github.com/lina-ova/rockPaperScissors',
+        imageSrc: rockPaperScissors
     },
     {
-        name: 'Rock-Paper-Scissors (with a slight hint of AI)',
-        link: 'https://github.com/lina-ova/rockPaperScissors',
-        imageSrc: rockPaperScissors
+        name: 'Movie-Book Recommender',
+        code: 'https://github.com/movie-book-recommender/movie-book-recommender-project',
+        imageSrc: img0
     },
     {
         name: 'Silly Advice',
@@ -21,7 +21,7 @@ const work = [
         imageSrc: img1
     },
     {
-        name: 'Posting Platform (yet under work)',
+        name: 'Posting Platform',
         link: 'https://blogg-e7a16.web.app/',
         code: 'https://github.com/lina-ova/blogg',
         imageSrc: img2
