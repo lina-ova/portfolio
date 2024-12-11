@@ -35,8 +35,7 @@ const Header = () => {
                             Hi there!
                         </h2>
                         <p className="bio">
-                            I’m a developer based in Helsinki, Finland, currently pursuing a Master’s in Computer Science at the University of Helsinki.
-                        </p>
+                            I’m a developer based in Helsinki, Finland, with a background in Computer Science from the University of Helsinki                        </p>
                         <p className="bio">
                             I’m driven by curiosity, with an endless energy that fuels my interests, hobbies, and passion for learning.
                         </p>
